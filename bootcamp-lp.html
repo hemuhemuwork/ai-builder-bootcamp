@@ -17,7 +17,7 @@
     <span class="hero__label">AI BUILDER BOOTCAMP</span>
     <h1>たった1ヶ月で、自分の業務に合ったシステムを<br><strong>自分の手で、オーダーメイドできる。</strong></h1>
     <p class="hero__sub">システムを作るのが、エンジニアだけの時代は終わりました。<br>AIの力を借りれば、誰でも自分の業務に合ったシステムを構築できます。<br>この講座は、その力を手に入れるプログラムです。</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRiAV83-ahXmSRUGzZacNjD_d8bTJrzepeIL0aIa-EX3j33Q/viewform?usp=dialog" target="_blank" class="hero__btn" style="animation: fadeUp 1s ease 0.8s both;">お申し込みはこちら</a>
+    <a href="#" onclick="document.getElementById('closedModal').style.display='flex';return false;" class="hero__btn" style="animation: fadeUp 1s ease 0.8s both;">お申し込みはこちら</a>
   </div>
 </section>
 
@@ -248,10 +248,10 @@
     <span class="label animate">PRICING</span>
     <h2 class="animate">受講料</h2>
     <div class="pricing__original animate">定価¥200,000（税込）</div>
-    <div class="pricing__badge animate">残り1社限定 初回モニター価格</div>
+    <div class="pricing__badge animate">第1期は定員に達したため受付を終了しました</div>
     <div class="pricing__price animate">¥148,000 <span>（税込）</span></div>
     <p class="pricing__note animate">制作会社にシステム開発を依頼すれば、小規模でも300万円。<br>この講座で手に入れるのは、1つのシステムではありません。<br><strong>「自分で何度でも作れる力」そのものです。</strong><br><br>1回の外注費の30分の1で、今後何度でも使えるスキルが手に入ります。</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRiAV83-ahXmSRUGzZacNjD_d8bTJrzepeIL0aIa-EX3j33Q/viewform?usp=dialog" target="_blank" class="cta__btn cta__btn--pricing animate">お申し込みはこちら</a>
+    <a href="#" onclick="document.getElementById('closedModal').style.display='flex';return false;" class="cta__btn cta__btn--pricing animate">お申し込みはこちら</a>
   </div>
 </section>
 
@@ -286,7 +286,7 @@
   <div class="container">
     <h2 class="animate">1ヶ月後のあなたは、<br><strong>「作れる側」にいる。</strong></h2>
     <p class="animate">思いついた仕組みを、自分で形にできる。<br>制作会社の見積もりに振り回されない。<br>合わないツールに月額を払い続けなくていい。<br><br><strong style="color: var(--brand);">自分の事業に合ったシステムを、自分の手でオーダーメイドする力。</strong><br><br>ライバルはもう動き始めています。<br>その第一歩を、ここから。</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRiAV83-ahXmSRUGzZacNjD_d8bTJrzepeIL0aIa-EX3j33Q/viewform?usp=dialog" target="_blank" class="cta__btn animate">お申し込みはこちら</a>
+    <a href="#" onclick="document.getElementById('closedModal').style.display='flex';return false;" class="cta__btn animate">お申し込みはこちら</a>
   </div>
 </section>
 
@@ -301,6 +301,17 @@
     <p class="animate">その力を持つか、持たないか。<br>ビジネスパーソンとして、冷静に判断してください。</p>
   </div>
 </section>
+
+<!-- CLOSED MODAL -->
+<div id="closedModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.6);align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
+  <div style="background:#fff;border-radius:16px;max-width:480px;width:90%;padding:40px 32px;text-align:center;position:relative;">
+    <button onclick="document.getElementById('closedModal').style.display='none'" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:24px;cursor:pointer;color:#999;">&times;</button>
+    <p style="font-size:18px;font-weight:700;color:#1a1a2e;margin:0 0 16px;">第1期の定員に達したため、<br>受付を終了しました</p>
+    <p style="font-size:15px;color:#555;margin:0 0 20px;">第2期の募集をお待ちください</p>
+    <p style="font-size:14px;color:#555;margin:0 0 16px;line-height:1.8;">第2期の申し込みのご案内はこちらの<br>LINEからさせていただきますので、<br>気になる方は追加よろしくお願いします。</p>
+    <a href="https://lin.ee/4rWWcdP" target="_blank" style="display:inline-block;background:#06C755;color:#fff;font-weight:700;font-size:15px;padding:12px 32px;border-radius:8px;text-decoration:none;">LINEで友だち追加する</a>
+  </div>
+</div>
 
 <footer class="footer"><p>&copy; 2025 合同会社ONE-WORD. All rights reserved.</p></footer>
 
